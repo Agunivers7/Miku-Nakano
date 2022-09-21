@@ -22,17 +22,17 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": "5475804553:AAEomjFZJy7_NECHqe67rdp0qUSr_enBgmw"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "10651048"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "37775aca7d11f450ecde375baac17fe7"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
@@ -42,11 +42,11 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "5291415314"
+         "value": "1323557247"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "h0daka"
+         "value": "Spoidermon12"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to miku support than consider you made an enemy.",
@@ -61,7 +61,7 @@
       "REDIS_URL": {
          "description": "Get it from Redislabs.com",
          "required": true,
-         "value": ""
+         "value": "redis-11832.c244.us-east-1-2.ec2.cloud.redislabs.com:11832"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
@@ -71,7 +71,7 @@
       "ARQ_API_KEY": {
          "description": "For Some Modules. Get it from @ArqRobot",
          "required": true,
-         "value": ""
+         "value": "CPQIGP-AFRKZR-FEAMKU-EOQFUX-ARQ"
       },
       "ARQ_API_URL": {
          "description": "Uses For Arq Modules. Don't Change Anything Just Leave It.",
@@ -91,12 +91,12 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Miku support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "5145883564"
+         "value": ""
       },
       "sw_api": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
-         "value": ""
+         "value": "TcOjJ8pWGP8OxnkQWQqORD3LVm8qp8rNvZ~hP9A27fMw~fnUfWk3TvITNTkqnGyG"
       }, 
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
